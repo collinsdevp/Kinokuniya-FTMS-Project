@@ -1,0 +1,183 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="4dp"
+    android:background="@color/grey"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.newthinktank.kinokuniya.ViewNews" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_marginBottom="2sp"
+        android:contentDescription="@string/kinokuniya_logo_desc"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/companyTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="@color/kinokuniya_color"
+        android:text="@string/company_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/company_title_text_size" />
+
+    <TextView
+        android:id="@+id/values_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="Kinokuniya News Updates:"
+        android:textColor="@color/kinokuniya_color"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:id="@+id/TableRow05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/newsicon_good" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Due to the Chinese holiday Office will be closed." />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/newsicon_good" />
+
+        <TextView
+            android:id="@+id/humidityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Please be informed that ID's are important entry." />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/newsicon_good" />
+
+        <TextView
+            android:id="@+id/pressureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Always attend to custumers interactively." />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView03"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/newsicon_good" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Be noted for the discounted offers." />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView04"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/newsicon_good" />
+
+        <TextView
+            android:id="@+id/temperatureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Always dress professionally." />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView05"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/newsicon_good" />
+
+        <TextView
+            android:id="@+id/resutlTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Always verify from the customers member card." />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow06"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/backButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Menu" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/rightstextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/rights"
+        android:textSize="@dimen/rights_text_size" />
+
+</TableLayout>

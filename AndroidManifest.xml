@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.newthinktank.kinokuniya"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kino_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Intro"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.newthinktank.kinokuniya.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MoreOptions"
+            android:label="@string/title_activity_more__options" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".View_Profile"
+            android:label="@string/title_activity_view__profile" >
+        </activity>
+        <activity
+            android:name=".EditProfile"
+            android:label="@string/title_activity_edit_profile" >
+        </activity>
+        <activity
+            android:name=".ViewSalary"
+            android:label="@string/title_activity_view_salary" >
+        </activity>
+        <activity
+            android:name=".ViewNews"
+            android:label="@string/title_activity_view_news" >
+        </activity>
+        <activity
+            android:name=".EmailHR"
+            android:label="@string/title_activity_email_hr" >
+        </activity>
+        <activity
+            android:name=".QuitJob"
+            android:label="@string/title_activity_quit_job" >
+        </activity>
+        <activity
+            android:name=".SearchResult"
+            android:label="@string/title_activity_search_result" >
+        </activity>
+        <activity
+            android:name=".Weather"
+            android:label="@string/title_activity_weather" >
+        </activity>
+        <activity
+            android:name=".ChooseCity"
+            android:label="@string/title_activity_choose_city" >
+        </activity>
+        <activity
+            android:name=".TimeZone"
+            android:label="@string/title_activity_time_zone" >
+        </activity>
+        <activity
+            android:name=".TimeZ"
+            android:label="@string/title_activity_time_z" >
+        </activity>
+        <activity
+            android:name=".YourGraph"
+            android:label="@string/title_activity_your_graph" >
+        </activity>
+    </application>
+
+</manifest>
